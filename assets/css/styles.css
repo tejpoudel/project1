@@ -1,0 +1,13 @@
+
+body {
+    width: 960px;
+    background: gray;
+}
+
+.container {
+    color: red;
+}
+
+h1 {
+    color: red;
+}
