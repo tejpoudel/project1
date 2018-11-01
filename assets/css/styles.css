@@ -1,13 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Volkhov:400italic,700);
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 body {
-    width: 960px;
-    background: gray;
+    background: linear-gradient(to right, #B75311, #D0BD1A);
+    color: #444;
+    font-family: "PT Sans Narrow", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
 }
 
-.container {
-    color: red;
+.wrapper {
+    position: relative;
+    max-width: 840px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
 }
 
-h1 {
-    color: red;
+a {
+	color: #000;
+	text-decoration: none;
 }
+
+h1, h2, h5 {
+	margin: 20px 20px 30px 20px;
+	font-size: 56px;
+	color: black;
+	font-family: "Volkhov", serif;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 1px 1px 3px #e0d1bc;
+}
+
+h1{
+    font-family: 'Limelight', cursive;
+  }

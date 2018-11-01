@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Project1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reset.css">
 </head>
-<body>
-    <div class="container">
-        <h1 class="title">Real Tube Trailer</h1>
-            <div class="search">
-                
-            </div>
-            <div class="trailer">
 
-            </div>
+<body>
+    <div class="header">
+        <h1> Real Tube Trailer</h1>
     </div>
+    <div class="button-group logInButton">
+        <a id="signIn" data-onsuccess="onSignIn" class="button expanded"> Click to Get Started</a>
+    </div>
+    <!-- Image Divs -->
+    <div class="wrapper">
+        <div class="row" id="slider">
+            <ul id="sb-slider" class="sb-slider">
+            </ul>
+        </div>
+        <!-- Nav Arrow and Shadows -->
+        <div id="shadow" class="shadow"></div>
+        <div id="nav-arrows" class="nav-arrows">
+            <a id="next">Next</a>
+            <a id="previous">Previous</a>
+        </div>
+    </div>
+
 
     <script src="assets/javascript/jquery.js"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
