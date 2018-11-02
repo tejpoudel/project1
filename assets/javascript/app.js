@@ -1,4 +1,4 @@
-//alert("Ready to work");
+alert("JS Compoenent is working");
 
 //TODO Movie OMDb API
 // TODO Youtube API Working 
